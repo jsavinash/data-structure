@@ -5,6 +5,7 @@ function SinglyLinkedListNode(data, next) {
 
 function SinglyLinkedListOperations() {
     this.head = null;
+
     this.addNode = function (data) {
         if (this.head) {
             newNode = new SinglyLinkedListNode(data, null);
@@ -13,8 +14,8 @@ function SinglyLinkedListOperations() {
         } else {
             this.head = new SinglyLinkedListNode(data, null);
         }
-
     }
+
     this.displayNode = function () {
         let output = "";
         while (this.head) {
