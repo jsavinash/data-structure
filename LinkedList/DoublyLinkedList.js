@@ -7,6 +7,7 @@ function DoublyLinkedListNode(data, next, prev) {
 function DoublyLinkedListOperations() {
     this.head = null;
     this.tail = null;
+    
     this.addNode = function (data) {
         if (this.head) {
             newNode = new DoublyLinkedListNode(data, this.head, null);
@@ -16,8 +17,8 @@ function DoublyLinkedListOperations() {
         } else {
             this.tail = this.head = new DoublyLinkedListNode(data, null, null);
         }
-
     }
+
     this.displayNode = function () {
         let output = "";
         while (this.head) {
