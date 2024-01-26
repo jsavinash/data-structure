@@ -52,16 +52,12 @@ Perfect Binary Tree             |
 ### Treap
 ### Tries
 
-## Queue
+## Graph
 | Type                          |
 |---------------                | 
 Directed Graph                  | 
 Undirected Graph                | 
 Weighted Graph                  | 
-Finite Graph                    |
-Directed Graph                  |
-Undirected Graph                |
-Weighted Graph                  |
 Finite Graph                    |
 Null Graph                      |
 Multi Graph                     |
